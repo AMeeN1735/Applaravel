@@ -14,10 +14,10 @@ class item extends Model
     protected $table = 'items'; // اسم الجدول مختلف عن products
     protected $fillable = ['name', 'price', 'description'];
 
-    public function scopeExpensive($query){
-        return $query->where('price', '>', 200);
+    // public function scopeExpensive($query){
+    //     return $query->where('price', '>', 200);
 
-    }
+    // }
 }
 
 
